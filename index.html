@@ -1,0 +1,74 @@
+---
+layout: base
+---
+
+{% for i in site.data.data %}
+<div class="card mb-3 {% cycle 'bg-secondary bg-opacity-25', '' %}">
+    <div class="card-body">
+        <h3>{{ i.weapon }} &laquo;{{ i.group }}&raquo;</h3>
+
+        {% assign
+        icon_base="https://cdn.jsdelivr.net/gh/justrealmilk/destiny-icons@8b697d4"
+        %}
+        <div class="row">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div
+                    class="weapon__faction text-center position-relative bg-dark"
+                >
+                    <div
+                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
+                    >
+                        <img
+                            src="{{ icon_base }}/gambit/gambit2.svg"
+                            alt="Gambit"
+                        />
+                    </div>
+                    <img
+                        class="img-fluid"
+                        src="./assets/images/{{ i.gambit }}"
+                        alt="{{ i.gambit }}"
+                    />
+                </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div
+                    class="weapon__faction text-center position-relative bg-dark"
+                >
+                    <div
+                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
+                    >
+                        <img
+                            src="{{ icon_base }}/factions/faction_osiris.svg"
+                            alt="Trials"
+                        />
+                    </div>
+                    <img
+                        class="img-fluid"
+                        src="./assets/images/{{ i.trials }}"
+                        alt="{{ i.trials }}"
+                    />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div
+                    class="weapon__faction text-center position-relative bg-dark"
+                >
+                    <div
+                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
+                    >
+                        <img
+                            src="{{ icon_base }}/factions/faction_vanguard.svg"
+                            alt="Nightfall"
+                        />
+                    </div>
+                    <img
+                        class="img-fluid"
+                        src="./assets/images/{{ i.nightfall }}"
+                        alt="{{ i.nightfall }}"
+                    />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

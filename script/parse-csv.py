@@ -11,7 +11,7 @@ if not os.path.exists('output'):
 
 data = []
 
-with open('output/input.csv') as fp:
+with open('output/input.csv', 'r') as fp:
     csv_reader = csv.reader(fp)
     next(csv_reader)
 

@@ -2,3 +2,4 @@ script/output
 script/images
 
 *.exe
+_site
