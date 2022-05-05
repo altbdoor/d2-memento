@@ -115,7 +115,7 @@
         "group": "Risen (Seasonal)",
         "weapon": "Thoughtless",
         "slug": "thoughtless",
-        "gambit": "",
+        "gambit": "thoughtless-gambit.jpg",
         "trials": "thoughtless-trials.jpg",
         "nightfall": "thoughtless-nightfall.jpg"
     },
@@ -132,7 +132,7 @@
         "weapon": "Syncopation-53",
         "slug": "syncopation53",
         "gambit": "syncopation53-gambit.jpg",
-        "trials": "",
+        "trials": "syncopation53-trials.jpg",
         "nightfall": "syncopation53-nightfall.jpg"
     },
     {
