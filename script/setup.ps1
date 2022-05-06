@@ -27,7 +27,7 @@ $csv = $csv | Select-Object -Skip 1
 
 $data = @()
 foreach ($line in $csv) {
-    $datum = @{
+    $datum = [ordered]@{
         group     = $line.Group.Trim();
         weapon    = $line.Weapon.Trim();
         gambit    = $line.Gambit.Trim();
@@ -77,7 +77,7 @@ foreach ($datum in $data) {
     foreach ($act in $activities) {
         $imageUrl = $datum.($act)
         $filename = "$($datum.slug)-$($act.ToLower())"
-        $findFilename = Get-ChildItem -Path 'images' -Name -Include "${filename}*"
+        $findFilename = Get-ChildItem -Path 'images' -Name -Include "${filename}*" | Select-Object -Last 1
 
         if ($findFilename) {
             Write-Output "images/${findFilename} already exist"
@@ -86,13 +86,18 @@ foreach ($datum in $data) {
             Invoke-WebRequest -Uri "${imageUrl}" -OutFile "images/${filename}.jpg"
             $findFilename = "${filename}.jpg"
 
-            $fileMetadata = & "${pathToFileExe}" "images/${filename}.jpg"
+            $fileMetadata = & "${pathToFileExe}" @("images/${filename}.jpg")
             if ($fileMetadata -match 'PNG image data') {
                 Move-Item -Path "images/${filename}.jpg" -Destination "images/${filename}.png"
                 $findFilename = "${filename}.png"
+                Write-Output "downloaded images/${findFilename} from ${imageUrl}"
             }
-
-            Write-Output "downloaded images/${findFilename} from ${imageUrl}"
+            elseif ($fileMetadata -match 'JPEG image data') {
+                Write-Output "downloaded images/${findFilename} from ${imageUrl}"
+            }
+            else {
+                Write-Output "(!) images/${findFilename} from ${imageUrl} might be corrupted"
+            }
         }
 
         $datum.($act) = $findFilename

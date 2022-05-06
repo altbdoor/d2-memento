@@ -1,202 +1,202 @@
 [
-    {
-        "group": "Throne World",
-        "weapon": "Come to Pass",
-        "slug": "cometopass",
-        "gambit": "cometopass-gambit.jpg",
-        "trials": "cometopass-trials.jpg",
-        "nightfall": "cometopass-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Fel Taradiddle",
-        "slug": "feltaradiddle",
-        "gambit": "feltaradiddle-gambit.jpg",
-        "trials": "feltaradiddle-trials.jpg",
-        "nightfall": "feltaradiddle-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Pointed Inquiry",
-        "slug": "pointedinquiry",
-        "gambit": "pointedinquiry-gambit.jpg",
-        "trials": "pointedinquiry-trials.jpg",
-        "nightfall": "pointedinquiry-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Empirical Evidence",
-        "slug": "empiricalevidence",
-        "gambit": "empiricalevidence-gambit.jpg",
-        "trials": "empiricalevidence-trials.jpg",
-        "nightfall": "empiricalevidence-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Forensic Nightmare",
-        "slug": "forensicnightmare",
-        "gambit": "forensicnightmare-gambit.jpg",
-        "trials": "forensicnightmare-trials.jpg",
-        "nightfall": "forensicnightmare-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Likely Suspect",
-        "slug": "likelysuspect",
-        "gambit": "likelysuspect-gambit.jpg",
-        "trials": "likelysuspect-trials.jpg",
-        "nightfall": "likelysuspect-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Father's Sins",
-        "slug": "fatherssins",
-        "gambit": "fatherssins-gambit.jpg",
-        "trials": "fatherssins-trials.jpg",
-        "nightfall": "fatherssins-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Tarnation",
-        "slug": "tarnation",
-        "gambit": "tarnation-gambit.jpg",
-        "trials": "tarnation-trials.jpg",
-        "nightfall": "tarnation-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "Red Herring",
-        "slug": "redherring",
-        "gambit": "redherring-gambit.jpg",
-        "trials": "redherring-trials.jpg",
-        "nightfall": "redherring-nightfall.jpg"
-    },
-    {
-        "group": "Throne World",
-        "weapon": "The Enigma",
-        "slug": "theenigma",
-        "gambit": "theenigma-gambit.jpg",
-        "trials": "theenigma-trials.jpg",
-        "nightfall": "theenigma-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Sweet Sorrow",
-        "slug": "sweetsorrow",
-        "gambit": "sweetsorrow-gambit.jpg",
-        "trials": "sweetsorrow-trials.jpg",
-        "nightfall": "sweetsorrow-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Under Your Skin",
-        "slug": "underyourskin",
-        "gambit": "underyourskin-gambit.jpg",
-        "trials": "underyourskin-trials.jpg",
-        "nightfall": "underyourskin-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Piece of Mind",
-        "slug": "pieceofmind",
-        "gambit": "pieceofmind-gambit.jpg",
-        "trials": "pieceofmind-trials.jpg",
-        "nightfall": "pieceofmind-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Explosive Personality",
-        "slug": "explosivepersonality",
-        "gambit": "explosivepersonality-gambit.jpg",
-        "trials": "explosivepersonality-trials.jpg",
-        "nightfall": "explosivepersonality-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Thoughtless",
-        "slug": "thoughtless",
-        "gambit": "thoughtless-gambit.jpg",
-        "trials": "thoughtless-trials.jpg",
-        "nightfall": "thoughtless-nightfall.jpg"
-    },
-    {
-        "group": "Risen (Seasonal)",
-        "weapon": "Recurrent Impact",
-        "slug": "recurrentimpact",
-        "gambit": "recurrentimpact-gambit.jpg",
-        "trials": "recurrentimpact-trials.jpg",
-        "nightfall": "recurrentimpact-nightfall.jpg"
-    },
-    {
-        "group": "Open World",
-        "weapon": "Syncopation-53",
-        "slug": "syncopation53",
-        "gambit": "syncopation53-gambit.jpg",
-        "trials": "syncopation53-trials.jpg",
-        "nightfall": "syncopation53-nightfall.jpg"
-    },
-    {
-        "group": "Open World",
-        "weapon": "Palmyra-B",
-        "slug": "palmyrab",
-        "gambit": "palmyrab-gambit.jpg",
-        "trials": "palmyrab-trials.jpg",
-        "nightfall": "palmyrab-nightfall.jpg"
-    },
-    {
-        "group": "Open World",
-        "weapon": "Ragnhild-D",
-        "slug": "ragnhildd",
-        "gambit": "ragnhildd-gambit.jpg",
-        "trials": "ragnhildd-trials.jpg",
-        "nightfall": "ragnhildd-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Insidious",
-        "slug": "insidious",
-        "gambit": "insidious-gambit.jpg",
-        "trials": "insidious-trials.jpg",
-        "nightfall": "insidious-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Submission",
-        "slug": "submission",
-        "gambit": "submission-gambit.jpg",
-        "trials": "submission-trials.jpg",
-        "nightfall": "submission-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Deliverance",
-        "slug": "deliverance",
-        "gambit": "deliverance-gambit.jpg",
-        "trials": "deliverance-trials.jpg",
-        "nightfall": "deliverance-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Lubrae's Ruin",
-        "slug": "lubraesruin",
-        "gambit": "lubraesruin-gambit.jpg",
-        "trials": "lubraesruin-trials.jpg",
-        "nightfall": "lubraesruin-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Forbearance",
-        "slug": "forbearance",
-        "gambit": "forbearance-gambit.jpg",
-        "trials": "forbearance-trials.jpg",
-        "nightfall": "forbearance-nightfall.jpg"
-    },
-    {
-        "group": "Vow of the Disciple",
-        "weapon": "Cataclysmic",
-        "slug": "cataclysmic",
-        "gambit": "cataclysmic-gambit.jpg",
-        "trials": "cataclysmic-trials.jpg",
-        "nightfall": "cataclysmic-nightfall.jpg"
-    }
+  {
+    "group": "Throne World",
+    "weapon": "Come to Pass",
+    "gambit": "cometopass-gambit.jpg",
+    "trials": "cometopass-trials.jpg",
+    "nightfall": "cometopass-nightfall.jpg",
+    "slug": "cometopass"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Fel Taradiddle",
+    "gambit": "feltaradiddle-gambit.jpg",
+    "trials": "feltaradiddle-trials.jpg",
+    "nightfall": "feltaradiddle-nightfall.jpg",
+    "slug": "feltaradiddle"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Pointed Inquiry",
+    "gambit": "pointedinquiry-gambit.jpg",
+    "trials": "pointedinquiry-trials.jpg",
+    "nightfall": "pointedinquiry-nightfall.jpg",
+    "slug": "pointedinquiry"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Empirical Evidence",
+    "gambit": "empiricalevidence-gambit.jpg",
+    "trials": "empiricalevidence-trials.jpg",
+    "nightfall": "empiricalevidence-nightfall.jpg",
+    "slug": "empiricalevidence"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Forensic Nightmare",
+    "gambit": "forensicnightmare-gambit.jpg",
+    "trials": "forensicnightmare-trials.jpg",
+    "nightfall": "forensicnightmare-nightfall.jpg",
+    "slug": "forensicnightmare"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Likely Suspect",
+    "gambit": "likelysuspect-gambit.jpg",
+    "trials": "likelysuspect-trials.jpg",
+    "nightfall": "likelysuspect-nightfall.jpg",
+    "slug": "likelysuspect"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Father's Sins",
+    "gambit": "fatherssins-gambit.jpg",
+    "trials": "fatherssins-trials.jpg",
+    "nightfall": "fatherssins-nightfall.jpg",
+    "slug": "fatherssins"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Tarnation",
+    "gambit": "tarnation-gambit.jpg",
+    "trials": "tarnation-trials.jpg",
+    "nightfall": "tarnation-nightfall.jpg",
+    "slug": "tarnation"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "Red Herring",
+    "gambit": "redherring-gambit.jpg",
+    "trials": "redherring-trials.jpg",
+    "nightfall": "redherring-nightfall.jpg",
+    "slug": "redherring"
+  },
+  {
+    "group": "Throne World",
+    "weapon": "The Enigma",
+    "gambit": "theenigma-gambit.jpg",
+    "trials": "theenigma-trials.jpg",
+    "nightfall": "theenigma-nightfall.jpg",
+    "slug": "theenigma"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Sweet Sorrow",
+    "gambit": "sweetsorrow-gambit.jpg",
+    "trials": "sweetsorrow-trials.jpg",
+    "nightfall": "sweetsorrow-nightfall.jpg",
+    "slug": "sweetsorrow"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Under Your Skin",
+    "gambit": "underyourskin-gambit.jpg",
+    "trials": "underyourskin-trials.jpg",
+    "nightfall": "underyourskin-nightfall.jpg",
+    "slug": "underyourskin"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Piece of Mind",
+    "gambit": "pieceofmind-gambit.jpg",
+    "trials": "pieceofmind-trials.jpg",
+    "nightfall": "pieceofmind-nightfall.jpg",
+    "slug": "pieceofmind"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Explosive Personality",
+    "gambit": "explosivepersonality-gambit.jpg",
+    "trials": "explosivepersonality-trials.jpg",
+    "nightfall": "explosivepersonality-nightfall.jpg",
+    "slug": "explosivepersonality"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Thoughtless",
+    "gambit": "thoughtless-gambit.jpg",
+    "trials": "thoughtless-trials.jpg",
+    "nightfall": "thoughtless-nightfall.jpg",
+    "slug": "thoughtless"
+  },
+  {
+    "group": "Risen (Seasonal)",
+    "weapon": "Recurrent Impact",
+    "gambit": "recurrentimpact-gambit.jpg",
+    "trials": "recurrentimpact-trials.jpg",
+    "nightfall": "recurrentimpact-nightfall.jpg",
+    "slug": "recurrentimpact"
+  },
+  {
+    "group": "Open World",
+    "weapon": "Syncopation-53",
+    "gambit": "syncopation53-gambit.jpg",
+    "trials": "syncopation53-trials.jpg",
+    "nightfall": "syncopation53-nightfall.jpg",
+    "slug": "syncopation53"
+  },
+  {
+    "group": "Open World",
+    "weapon": "Palmyra-B",
+    "gambit": "palmyrab-gambit.jpg",
+    "trials": "palmyrab-trials.jpg",
+    "nightfall": "palmyrab-nightfall.jpg",
+    "slug": "palmyrab"
+  },
+  {
+    "group": "Open World",
+    "weapon": "Ragnhild-D",
+    "gambit": "ragnhildd-gambit.jpg",
+    "trials": "ragnhildd-trials.jpg",
+    "nightfall": "ragnhildd-nightfall.jpg",
+    "slug": "ragnhildd"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Insidious",
+    "gambit": "insidious-gambit.jpg",
+    "trials": "insidious-trials.jpg",
+    "nightfall": "insidious-nightfall.jpg",
+    "slug": "insidious"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Submission",
+    "gambit": "submission-gambit.jpg",
+    "trials": "submission-trials.jpg",
+    "nightfall": "submission-nightfall.jpg",
+    "slug": "submission"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Deliverance",
+    "gambit": "deliverance-gambit.jpg",
+    "trials": "deliverance-trials.jpg",
+    "nightfall": "deliverance-nightfall.jpg",
+    "slug": "deliverance"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Lubrae's Ruin",
+    "gambit": "lubraesruin-gambit.jpg",
+    "trials": "lubraesruin-trials.jpg",
+    "nightfall": "lubraesruin-nightfall.jpg",
+    "slug": "lubraesruin"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Forbearance",
+    "gambit": "forbearance-gambit.jpg",
+    "trials": "forbearance-trials.jpg",
+    "nightfall": "forbearance-nightfall.jpg",
+    "slug": "forbearance"
+  },
+  {
+    "group": "Vow of the Disciple",
+    "weapon": "Cataclysmic",
+    "gambit": "cataclysmic-gambit.jpg",
+    "trials": "cataclysmic-trials.jpg",
+    "nightfall": "cataclysmic-nightfall.jpg",
+    "slug": "cataclysmic"
+  }
 ]
