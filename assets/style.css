@@ -1,0 +1,8 @@
+.blueimp-gallery > .open {
+    display: block;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    position: absolute;
+    text-align: center;
+}

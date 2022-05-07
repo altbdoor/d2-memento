@@ -2,73 +2,74 @@
 layout: base
 ---
 
-{% for i in site.data.data %}
-<div class="card mb-3 {% cycle 'bg-secondary bg-opacity-25', '' %}">
-    <div class="card-body">
-        <h3>{{ i.weapon }} &laquo;{{ i.group }}&raquo;</h3>
+{% assign thumb_base =
+"https://images.weserv.nl/?w=480&h=270&fit=cover&maxage=30d&url=https://altbdoor.github.io/d2-memento/assets/images"
+%} {% assign activities = "gambit, trials, nightfall" | split: ", " %}
 
-        {% assign
-        icon_base="https://cdn.jsdelivr.net/gh/justrealmilk/destiny-icons@8b697d4"
-        %}
-        <div class="row">
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div
-                    class="weapon__faction text-center position-relative bg-dark"
-                >
-                    <div
-                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
-                    >
-                        <img
-                            src="{{ icon_base }}/gambit/gambit2.svg"
-                            alt="Gambit"
-                        />
-                    </div>
-                    <img
-                        class="img-fluid"
-                        src="./assets/images/{{ i.gambit }}"
-                        alt="{{ i.gambit }}"
-                    />
-                </div>
+<div class="row">
+    {% for i in site.data.data %}
+    <div class="col-lg-6 mb-3">
+        <div class="card">
+            <div class="card-header">
+                <strong>{{ i.weapon }}</strong>
+                <span>({{ i.group }})</span>
             </div>
-            <div class="col-md-4 mb-3 mb-md-0">
-                <div
-                    class="weapon__faction text-center position-relative bg-dark"
-                >
+            <div class="card-body">
+                <div class="row">
+                    {% for act in activities %}
                     <div
-                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
+                        class="col-sm-4 {% cycle 'mb-3 mb-sm-0', 'mb-3 mb-sm-0', '' %}"
                     >
-                        <img
-                            src="{{ icon_base }}/factions/faction_osiris.svg"
-                            alt="Trials"
-                        />
+                        <a
+                            href="./assets/images/{{ i[act] }}"
+                            data-title="{{ i.weapon }} - {{ act | capitalize }}"
+                        >
+                            <img
+                                class="img-fluid"
+                                src="{{ thumb_base }}/{{ i[act] }}"
+                                alt="{{ i[act] }}"
+                                width="480"
+                                height="270"
+                            />
+                        </a>
                     </div>
-                    <img
-                        class="img-fluid"
-                        src="./assets/images/{{ i.trials }}"
-                        alt="{{ i.trials }}"
-                    />
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div
-                    class="weapon__faction text-center position-relative bg-dark"
-                >
-                    <div
-                        class="position-absolute p-2 start-0 top-0 text-white bg-dark"
-                    >
-                        <img
-                            src="{{ icon_base }}/factions/faction_vanguard.svg"
-                            alt="Nightfall"
-                        />
-                    </div>
-                    <img
-                        class="img-fluid"
-                        src="./assets/images/{{ i.nightfall }}"
-                        alt="{{ i.nightfall }}"
-                    />
+                    {% endfor %}
                 </div>
             </div>
         </div>
     </div>
+    {% endfor %}
 </div>
-{% endfor %}
+
+<div
+    class="blueimp-gallery blueimp-gallery-controls"
+    aria-label="image gallery"
+    aria-modal="true"
+    role="dialog"
+>
+    <div class="slides" aria-live="polite"></div>
+    <h3 class="title"></h3>
+    <a
+        class="prev"
+        aria-controls="blueimp-gallery"
+        aria-label="previous slide"
+        aria-keyshortcuts="ArrowLeft"
+    ></a>
+    <a
+        class="next"
+        aria-controls="blueimp-gallery"
+        aria-label="next slide"
+        aria-keyshortcuts="ArrowRight"
+    ></a>
+    <a
+        class="close"
+        aria-controls="blueimp-gallery"
+        aria-label="close"
+        aria-keyshortcuts="Escape"
+    ></a>
+    <div class="open" aria-controls="blueimp-gallery" aria-label="open">
+        <a href="#" target="_blank" class="btn btn-primary"
+            >Open image in new tab</a
+        >
+    </div>
+</div>
