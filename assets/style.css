@@ -6,3 +6,20 @@
     position: absolute;
     text-align: center;
 }
+
+.img-fluid--development {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.soon-placeholder {
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.soon-placeholder > div {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

@@ -21,27 +21,52 @@ Invoke-WebRequest -OutFile 'output/input.csv' `
 
 # parsing csv into meaningful data
 # ========================================
-$headers = @('Group', 'Weapon', 'Gambit', 'Spacer1', 'Trials', 'Spacer2', 'Nightfall')
+$headers = @(
+    'Season',
+    'Group',
+    'Weapon',
+    'Gambit',
+    'Spacer1',
+    'Trials',
+    'Spacer2',
+    'Nightfall',
+    'CreditGambit',
+    'CreditTrials',
+    'CreditNightfall'
+)
 $csv = Import-Csv -Path 'output/input.csv' -Header $headers
-$csv = $csv | Select-Object -Skip 1
+$csv = $csv | Select-Object -Skip 4
 
 $data = @()
 foreach ($line in $csv) {
     $datum = [ordered]@{
-        group     = $line.Group.Trim();
-        weapon    = $line.Weapon.Trim();
-        gambit    = $line.Gambit.Trim();
-        trials    = $line.Trials.Trim();
-        nightfall = $line.Nightfall.Trim();
-        slug      = '';
+        season           = $line.Season.Trim();
+        group            = $line.Group.Trim();
+        weapon           = $line.Weapon.Trim();
+        gambit           = $line.Gambit.Trim();
+        trials           = $line.Trials.Trim();
+        nightfall        = $line.Nightfall.Trim();
+        slug             = '';
+        credit_gambit    = $line.CreditGambit.Trim();
+        credit_trials    = $line.CreditTrials.Trim();
+        credit_nightfall = $line.CreditNightfall.Trim();
     }
 
-    if (($datum.gambit -eq '') -and ($datum.trials -eq '') -and ($datum.nightfall -eq '')) {
+    # temp patch for future credits
+    if ($datum.credit_gambit -contains 'add these later') {
+        $datum.credit_gambit = ''
+    }
+
+    if ($datum.weapon -eq '') {
         break
     }
 
     if ($datum.group -eq '') {
         $datum.group = $data[-1].group
+    }
+
+    if ($datum.season -eq '') {
+        $datum.season = $data[-1].season
     }
 
     $datum.slug = $datum.weapon.ToLower() -replace '[^A-z0-9]', ''
@@ -65,7 +90,7 @@ foreach ($datum in $data) {
             $imageUrl = "https://docs.google.com/uc?export=download&id=${driveId}"
         }
 
-        $datum.($act) = $imageUrl
+        $datum.($act) = $imageUrl ? $imageUrl : ''
     }
 }
 
@@ -82,7 +107,7 @@ foreach ($datum in $data) {
         if ($findFilename) {
             Write-Output "images/${findFilename} already exist"
         }
-        else {
+        elseif ($imageUrl -match '^http') {
             Invoke-WebRequest -Uri "${imageUrl}" -OutFile "images/${filename}.jpg"
             $findFilename = "${filename}.jpg"
 
@@ -100,7 +125,7 @@ foreach ($datum in $data) {
             }
         }
 
-        $datum.($act) = $findFilename
+        $datum.($act) = $findFilename ? $findFilename : ''
     }
 }
 

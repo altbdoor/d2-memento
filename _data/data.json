@@ -1,202 +1,518 @@
 [
   {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Firefight",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "firefight",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Tears of Contrition",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "tearsofcontrition",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Nezarec's Whisper",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "nezarecswhisper",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Without Remorse",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "withoutremorse",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Hollow Denial",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "hollowdenial",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Haunted Weapons",
+    "weapon": "Bump in the Night",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "bumpinthenight",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Austringer",
+    "gambit": "austringer-gambit.jpg",
+    "trials": "austringer-trials.jpg",
+    "nightfall": "austringer-nightfall.jpg",
+    "slug": "austringer",
+    "credit_gambit": "/u/Arch_35",
+    "credit_trials": "Benny Clips (YT)",
+    "credit_nightfall": "@Separer"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Austringer Ornament #1",
+    "gambit": "",
+    "trials": "austringerornament1-trials.jpg",
+    "nightfall": "austringerornament1-nightfall.jpg",
+    "slug": "austringerornament1",
+    "credit_gambit": "",
+    "credit_trials": "Benny Clips (YT)",
+    "credit_nightfall": "@Separer"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Austringer Ornament #2",
+    "gambit": "austringerornament2-gambit.jpg",
+    "trials": "austringerornament2-trials.jpg",
+    "nightfall": "",
+    "slug": "austringerornament2",
+    "credit_gambit": "@PawnShopEd",
+    "credit_trials": "Benny Clips (YT)",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Drang",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "drang",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Drang Ornament",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "drangornament",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "CALUS Mini-Tool",
+    "gambit": "calusminitool-gambit.jpg",
+    "trials": "calusminitool-trials.jpg",
+    "nightfall": "calusminitool-nightfall.jpg",
+    "slug": "calusminitool",
+    "credit_gambit": "TheLastJoaquin",
+    "credit_trials": "TheLastJoaquin",
+    "credit_nightfall": "@SkankinZombie"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Mini-Tool Ornament",
+    "gambit": "minitoolornament-gambit.jpg",
+    "trials": "minitoolornament-trials.jpg",
+    "nightfall": "minitoolornament-nightfall.jpg",
+    "slug": "minitoolornament",
+    "credit_gambit": "TheLastJoaquin",
+    "credit_trials": "TheLastJoaquin",
+    "credit_nightfall": "@SkankinZombie"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "The Epicurean",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "theepicurean",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "The Epicurean Ornament",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "theepicureanornament-nightfall.jpg",
+    "slug": "theepicureanornament",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": "@D2Mementos"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Beloved",
+    "gambit": "beloved-gambit.jpg",
+    "trials": "beloved-trials.jpg",
+    "nightfall": "",
+    "slug": "beloved",
+    "credit_gambit": "/u/HitooU2",
+    "credit_trials": "@Separer",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Beloved Ornament",
+    "gambit": "",
+    "trials": "belovedornament-trials.jpg",
+    "nightfall": "",
+    "slug": "belovedornament",
+    "credit_gambit": "",
+    "credit_trials": "@Separer",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Fixed Odds",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "",
+    "slug": "fixedodds",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
+  },
+  {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Come to Pass",
     "gambit": "cometopass-gambit.jpg",
     "trials": "cometopass-trials.jpg",
     "nightfall": "cometopass-nightfall.jpg",
-    "slug": "cometopass"
+    "slug": "cometopass",
+    "credit_gambit": "I'll add these later, as it's gonna take me a while to find them",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Fel Taradiddle",
     "gambit": "feltaradiddle-gambit.jpg",
     "trials": "feltaradiddle-trials.jpg",
     "nightfall": "feltaradiddle-nightfall.jpg",
-    "slug": "feltaradiddle"
+    "slug": "feltaradiddle",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Pointed Inquiry",
     "gambit": "pointedinquiry-gambit.jpg",
     "trials": "pointedinquiry-trials.jpg",
     "nightfall": "pointedinquiry-nightfall.jpg",
-    "slug": "pointedinquiry"
+    "slug": "pointedinquiry",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Empirical Evidence",
     "gambit": "empiricalevidence-gambit.jpg",
     "trials": "empiricalevidence-trials.jpg",
     "nightfall": "empiricalevidence-nightfall.jpg",
-    "slug": "empiricalevidence"
+    "slug": "empiricalevidence",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Forensic Nightmare",
     "gambit": "forensicnightmare-gambit.jpg",
     "trials": "forensicnightmare-trials.jpg",
     "nightfall": "forensicnightmare-nightfall.jpg",
-    "slug": "forensicnightmare"
+    "slug": "forensicnightmare",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Likely Suspect",
     "gambit": "likelysuspect-gambit.jpg",
     "trials": "likelysuspect-trials.jpg",
     "nightfall": "likelysuspect-nightfall.jpg",
-    "slug": "likelysuspect"
+    "slug": "likelysuspect",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Father's Sins",
     "gambit": "fatherssins-gambit.jpg",
     "trials": "fatherssins-trials.jpg",
     "nightfall": "fatherssins-nightfall.jpg",
-    "slug": "fatherssins"
+    "slug": "fatherssins",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Tarnation",
     "gambit": "tarnation-gambit.jpg",
     "trials": "tarnation-trials.jpg",
     "nightfall": "tarnation-nightfall.jpg",
-    "slug": "tarnation"
+    "slug": "tarnation",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "Red Herring",
     "gambit": "redherring-gambit.jpg",
     "trials": "redherring-trials.jpg",
     "nightfall": "redherring-nightfall.jpg",
-    "slug": "redherring"
+    "slug": "redherring",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Throne World",
     "weapon": "The Enigma",
     "gambit": "theenigma-gambit.jpg",
     "trials": "theenigma-trials.jpg",
     "nightfall": "theenigma-nightfall.jpg",
-    "slug": "theenigma"
+    "slug": "theenigma",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Sweet Sorrow",
     "gambit": "sweetsorrow-gambit.jpg",
     "trials": "sweetsorrow-trials.jpg",
     "nightfall": "sweetsorrow-nightfall.jpg",
-    "slug": "sweetsorrow"
+    "slug": "sweetsorrow",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Under Your Skin",
     "gambit": "underyourskin-gambit.jpg",
     "trials": "underyourskin-trials.jpg",
     "nightfall": "underyourskin-nightfall.jpg",
-    "slug": "underyourskin"
+    "slug": "underyourskin",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Piece of Mind",
     "gambit": "pieceofmind-gambit.jpg",
     "trials": "pieceofmind-trials.jpg",
     "nightfall": "pieceofmind-nightfall.jpg",
-    "slug": "pieceofmind"
+    "slug": "pieceofmind",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Explosive Personality",
     "gambit": "explosivepersonality-gambit.jpg",
     "trials": "explosivepersonality-trials.jpg",
     "nightfall": "explosivepersonality-nightfall.jpg",
-    "slug": "explosivepersonality"
+    "slug": "explosivepersonality",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Thoughtless",
     "gambit": "thoughtless-gambit.jpg",
     "trials": "thoughtless-trials.jpg",
     "nightfall": "thoughtless-nightfall.jpg",
-    "slug": "thoughtless"
+    "slug": "thoughtless",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Risen (Seasonal)",
     "weapon": "Recurrent Impact",
     "gambit": "recurrentimpact-gambit.jpg",
     "trials": "recurrentimpact-trials.jpg",
     "nightfall": "recurrentimpact-nightfall.jpg",
-    "slug": "recurrentimpact"
+    "slug": "recurrentimpact",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Open World",
     "weapon": "Syncopation-53",
     "gambit": "syncopation53-gambit.jpg",
     "trials": "syncopation53-trials.jpg",
     "nightfall": "syncopation53-nightfall.jpg",
-    "slug": "syncopation53"
+    "slug": "syncopation53",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Open World",
     "weapon": "Palmyra-B",
     "gambit": "palmyrab-gambit.jpg",
     "trials": "palmyrab-trials.jpg",
     "nightfall": "palmyrab-nightfall.jpg",
-    "slug": "palmyrab"
+    "slug": "palmyrab",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Open World",
     "weapon": "Ragnhild-D",
     "gambit": "ragnhildd-gambit.jpg",
     "trials": "ragnhildd-trials.jpg",
     "nightfall": "ragnhildd-nightfall.jpg",
-    "slug": "ragnhildd"
+    "slug": "ragnhildd",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Insidious",
     "gambit": "insidious-gambit.jpg",
     "trials": "insidious-trials.jpg",
     "nightfall": "insidious-nightfall.jpg",
-    "slug": "insidious"
+    "slug": "insidious",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Submission",
     "gambit": "submission-gambit.jpg",
     "trials": "submission-trials.jpg",
     "nightfall": "submission-nightfall.jpg",
-    "slug": "submission"
+    "slug": "submission",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Deliverance",
     "gambit": "deliverance-gambit.jpg",
     "trials": "deliverance-trials.jpg",
     "nightfall": "deliverance-nightfall.jpg",
-    "slug": "deliverance"
+    "slug": "deliverance",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Lubrae's Ruin",
     "gambit": "lubraesruin-gambit.jpg",
     "trials": "lubraesruin-trials.jpg",
     "nightfall": "lubraesruin-nightfall.jpg",
-    "slug": "lubraesruin"
+    "slug": "lubraesruin",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Forbearance",
     "gambit": "forbearance-gambit.jpg",
     "trials": "forbearance-trials.jpg",
     "nightfall": "forbearance-nightfall.jpg",
-    "slug": "forbearance"
+    "slug": "forbearance",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   },
   {
+    "season": "Season of the Risen",
     "group": "Vow of the Disciple",
     "weapon": "Cataclysmic",
     "gambit": "cataclysmic-gambit.jpg",
     "trials": "cataclysmic-trials.jpg",
     "nightfall": "cataclysmic-nightfall.jpg",
-    "slug": "cataclysmic"
+    "slug": "cataclysmic",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": ""
   }
 ]

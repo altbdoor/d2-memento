@@ -13,6 +13,6 @@ foreach ($datum in $data) {
     foreach ($act in $activities) {
         $imageUrl = $datum.($act)
 
-        Copy-Item -Path "images/${imageUrl}" -Destination '../assets/images/'
+        Copy-Item -Force -Path "images/${imageUrl}" -Destination '../assets/images/'
     }
 }
