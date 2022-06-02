@@ -53,7 +53,7 @@ foreach ($line in $csv) {
     }
 
     # temp patch for future credits
-    if ($datum.credit_gambit -contains 'add these later') {
+    if ($datum.credit_gambit -match 'add these later') {
         $datum.credit_gambit = ''
     }
 
