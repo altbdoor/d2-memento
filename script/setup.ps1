@@ -14,10 +14,10 @@ if (!$pathToFileExe) {
 
 # fetching csv data
 # ========================================
-$sheet = '1Msr7Vdqfa6MlMXYSlERAnbTwEr4Fd7rVe2uvxaPjo14'
-New-Item -ItemType Directory -Force -Path 'output'
-Invoke-WebRequest -OutFile 'output/input.csv' `
-    -Uri "https://docs.google.com/spreadsheets/d/${sheet}/export?format=csv&gid=0"
+# $sheet = '1Msr7Vdqfa6MlMXYSlERAnbTwEr4Fd7rVe2uvxaPjo14'
+# New-Item -ItemType Directory -Force -Path 'output'
+# Invoke-WebRequest -OutFile 'output/input.csv' `
+#     -Uri "https://docs.google.com/spreadsheets/d/${sheet}/export?format=csv&gid=0"
 
 # parsing csv into meaningful data
 # ========================================
@@ -37,6 +37,12 @@ $headers = @(
 $csv = Import-Csv -Path 'output/input.csv' -Header $headers
 $csv = $csv | Select-Object -Skip 4
 
+$creditHeaders = @(
+    'credit_gambit',
+    'credit_trials',
+    'credit_nightfall'
+)
+
 $data = @()
 foreach ($line in $csv) {
     $datum = [ordered]@{
@@ -53,8 +59,10 @@ foreach ($line in $csv) {
     }
 
     # temp patch for future credits
-    if ($datum.credit_gambit -match 'add these later') {
-        $datum.credit_gambit = ''
+    foreach ($header in $creditHeaders) {
+        if ($datum.($header) -match 'add these later') {
+            $datum.($header) = ''
+        }
     }
 
     if ($datum.weapon -eq '') {

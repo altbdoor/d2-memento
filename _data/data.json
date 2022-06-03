@@ -111,13 +111,13 @@
     "season": "Season of the Haunted",
     "group": "Opulent Weapons",
     "weapon": "Drang",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "drang-gambit.jpg",
+    "trials": "drang-trials.jpg",
+    "nightfall": "drang-nightfall.jpg",
     "slug": "drang",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "Lagomorphus",
+    "credit_trials": "Lagomorphus",
+    "credit_nightfall": "Lagomorphus"
   },
   {
     "season": "Season of the Haunted",
