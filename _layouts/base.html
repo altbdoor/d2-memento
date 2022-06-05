@@ -10,32 +10,20 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/darkly/bootstrap.min.css"
         />
+        {% if page.gallery %}
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/blueimp-gallery@3.4.0/css/blueimp-gallery.min.css"
         />
+        {% endif %}
         <link rel="stylesheet" href="./assets/style.css" />
     </head>
     <body>
         <div class="container py-3">
-            <h1 class="text-center">
-                <img src="./assets/memento.jpg" width="48" height="48" />
-                <span>d2-memento</span>
-            </h1>
-            <p class="text-center">
-                Data curated by
-                <a href="https://www.reddit.com/user/TheLastJoaquin"
-                    >/u/TheLastJoaquin</a
-                >, much thanks to the
-                <a
-                    href="https://www.reddit.com/r/DestinyTheGame/comments/twzs6e/a_few_days_ago_i_started_cataloguing_the_memento/"
-                    >Reddit post</a
-                >
-                and data contributors!
-            </p>
+            {% include header.html %}
             <hr />
 
-            {{ content }}
+            <div class="container__content">{{ content }}</div>
 
             <hr />
             <ul class="list-inline">
@@ -46,9 +34,9 @@
                     <a href="https://bootswatch.com/">Bootswatch</a>
                 </li>
                 <li class="list-inline-item">
-                    <a href="https://github.com/blueimp/Gallery/"
-                        >blueimp Gallery</a
-                    >
+                    <a href="https://github.com/blueimp/Gallery/">
+                        blueimp Gallery
+                    </a>
                 </li>
                 <li class="list-inline-item">
                     <a href="https://images.weserv.nl/">images.weserv.nl</a>
@@ -56,30 +44,6 @@
             </ul>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/blueimp-gallery@3.4.0/js/blueimp-gallery.min.js"></script>
-        <script>
-            const allLinks = [...document.querySelectorAll(".card-body a")];
-            allLinks.forEach((elem) => {
-                elem.addEventListener(
-                    "click",
-                    (evt) => {
-                        blueimp.Gallery(allLinks, {
-                            event: evt,
-                            index: evt.target.closest("a"),
-                            container: ".blueimp-gallery",
-                            toggleControlsOnEnter: false,
-                            toggleControlsOnSlideClick: false,
-                            onslide: function (index, slide) {
-                                const link =
-                                    this.container.find(".open > a")[0];
-                                link.href =
-                                    this.list[index].getAttribute("href");
-                            },
-                        });
-                    },
-                    false
-                );
-            });
-        </script>
+        {% if page.gallery %} {% include gallery-setup.html %} {% endif %}
     </body>
 </html>

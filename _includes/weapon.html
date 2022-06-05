@@ -1,0 +1,45 @@
+<!--
+{% assign thumb_base =
+"https://images.weserv.nl/?w=480&h=270&fit=cover&maxage=30d&url=https://altbdoor.github.io/d2-memento/assets/images"
+%}
+
+{% assign credit = "credit_" | append: include.activity %}
+{% if include.weapon[credit] == '' %}
+    {% assign credit = 'unknown' %}
+{% else %}
+    {% assign credit = include.weapon[credit] %}
+{% endif %}
+-->
+
+{% if include.weapon[include.activity] != '' %}
+<a
+    href="./assets/images/{{ include.weapon[include.activity] }}"
+    data-title="{{ include.weapon.weapon }} - {{ include.activity | capitalize }}, by {{ credit }}"
+>
+    {% if jekyll.environment == 'development' %}
+    <img
+        class="img-fluid img-fluid--development"
+        src="./assets/images/{{ include.weapon[include.activity] }}"
+        alt="{{ include.weapon[include.activity] }}"
+        width="480"
+        height="270"
+    />
+    {% else %}
+    <img
+        class="img-fluid"
+        src="{{ thumb_base }}/{{ include.weapon[include.activity] }}"
+        alt="{{ include.weapon[include.activity] }}"
+        width="480"
+        height="270"
+    />
+    {% endif %}
+</a>
+{% else %}
+<div class="soon-placeholder position-relative">
+    <div
+        class="position-absolute d-flex align-items-center justify-content-center bg-secondary"
+    >
+        Soon!
+    </div>
+</div>
+{% endif %}

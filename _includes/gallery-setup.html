@@ -1,0 +1,56 @@
+<div
+    class="blueimp-gallery blueimp-gallery-controls"
+    aria-label="image gallery"
+    aria-modal="true"
+    role="dialog"
+>
+    <div class="slides" aria-live="polite"></div>
+    <h3 class="title"></h3>
+    <a
+        class="prev"
+        aria-controls="blueimp-gallery"
+        aria-label="previous slide"
+        aria-keyshortcuts="ArrowLeft"
+    ></a>
+    <a
+        class="next"
+        aria-controls="blueimp-gallery"
+        aria-label="next slide"
+        aria-keyshortcuts="ArrowRight"
+    ></a>
+    <a
+        class="close"
+        aria-controls="blueimp-gallery"
+        aria-label="close"
+        aria-keyshortcuts="Escape"
+    ></a>
+    <div class="open" aria-controls="blueimp-gallery" aria-label="open">
+        <a href="#" target="_blank" class="btn btn-primary"
+            >Open image in new tab</a
+        >
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/blueimp-gallery@3.4.0/js/blueimp-gallery.min.js"></script>
+<script>
+    const allLinks = [...document.querySelectorAll(".card-body a")];
+    allLinks.forEach((elem) => {
+        elem.addEventListener(
+            "click",
+            (evt) => {
+                blueimp.Gallery(allLinks, {
+                    event: evt,
+                    index: evt.target.closest("a"),
+                    container: ".blueimp-gallery",
+                    toggleControlsOnEnter: false,
+                    toggleControlsOnSlideClick: false,
+                    onslide: function (index, slide) {
+                        const link = this.container.find(".open > a")[0];
+                        link.href = this.list[index].getAttribute("href");
+                    },
+                });
+            },
+            false
+        );
+    });
+</script>

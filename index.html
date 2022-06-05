@@ -1,14 +1,7 @@
 ---
 layout: base
+gallery: true
 ---
-
-<div class="alert alert-primary text-center">
-    <strong>How can I help?</strong>
-    If you'd like to add your new crafted memento to the list, hit up
-    TheLastJoaquin on
-    <a href="https://www.reddit.com/user/TheLastJoaquin">Reddit</a> or
-    <a href="https://twitter.com/thelastjoaquin">Twitter</a>.
-</div>
 
 <div class="alert alert-info text-center">
     Please note, mementos have animation effects, which are not visible in these
@@ -16,9 +9,6 @@ layout: base
 </div>
 
 <!--
-{% assign thumb_base =
-"https://images.weserv.nl/?w=480&h=270&fit=cover&maxage=30d&url=https://altbdoor.github.io/d2-memento/assets/images"
-%}
 {% assign activities = "gambit, trials, nightfall" | split: ", " %}
 -->
 
@@ -36,47 +26,7 @@ layout: base
                     <div
                         class="col-sm-4 {% cycle 'mb-3 mb-sm-0', 'mb-3 mb-sm-0', '' %}"
                     >
-                        <!--
-                        {% assign credit = "credit_" | append: act %}
-                        {% if i[credit] == '' %}
-                            {% assign credit = 'unknown' %}
-                        {% else %}
-                            {% assign credit = i[credit] %}
-                        {% endif %}
-                        -->
-
-                        {% if i[act] != '' %}
-                        <a
-                            href="./assets/images/{{ i[act] }}"
-                            data-title="{{ i.weapon }} - {{ act | capitalize }}, by {{ credit }}"
-                        >
-                            {% if jekyll.environment == 'development' %}
-                            <img
-                                class="img-fluid img-fluid--development"
-                                src="./assets/images/{{ i[act] }}"
-                                alt="{{ i[act] }}"
-                                width="480"
-                                height="270"
-                            />
-                            {% else %}
-                            <img
-                                class="img-fluid"
-                                src="{{ thumb_base }}/{{ i[act] }}"
-                                alt="{{ i[act] }}"
-                                width="480"
-                                height="270"
-                            />
-                            {% endif %}
-                        </a>
-                        {% else %}
-                        <div class="soon-placeholder position-relative">
-                            <div
-                                class="position-absolute d-flex align-items-center justify-content-center bg-secondary"
-                            >
-                                Soon!
-                            </div>
-                        </div>
-                        {% endif %}
+                        {% include weapon.html activity=act weapon=i %}
                     </div>
                     {% endfor %}
                 </div>
@@ -84,37 +34,4 @@ layout: base
         </div>
     </div>
     {% endfor %}
-</div>
-
-<div
-    class="blueimp-gallery blueimp-gallery-controls"
-    aria-label="image gallery"
-    aria-modal="true"
-    role="dialog"
->
-    <div class="slides" aria-live="polite"></div>
-    <h3 class="title"></h3>
-    <a
-        class="prev"
-        aria-controls="blueimp-gallery"
-        aria-label="previous slide"
-        aria-keyshortcuts="ArrowLeft"
-    ></a>
-    <a
-        class="next"
-        aria-controls="blueimp-gallery"
-        aria-label="next slide"
-        aria-keyshortcuts="ArrowRight"
-    ></a>
-    <a
-        class="close"
-        aria-controls="blueimp-gallery"
-        aria-label="close"
-        aria-keyshortcuts="Escape"
-    ></a>
-    <div class="open" aria-controls="blueimp-gallery" aria-label="open">
-        <a href="#" target="_blank" class="btn btn-primary"
-            >Open image in new tab</a
-        >
-    </div>
 </div>
