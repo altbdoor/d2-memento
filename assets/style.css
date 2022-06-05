@@ -24,6 +24,10 @@
     bottom: 0;
 }
 
+.container__content ol > li > p {
+    margin-bottom: 0;
+}
+
 .container__content ol > li > ul {
     margin-bottom: 1rem;
 }
