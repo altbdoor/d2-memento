@@ -27,11 +27,11 @@
     "season": "Season of the Haunted",
     "group": "Haunted Weapons",
     "weapon": "Nezarec's Whisper",
-    "gambit": "",
+    "gambit": "nezarecswhisper-gambit.jpg",
     "trials": "",
     "nightfall": "",
     "slug": "nezarecswhisper",
-    "credit_gambit": "",
+    "credit_gambit": "@notrgx",
     "credit_trials": "",
     "credit_nightfall": ""
   },
@@ -53,11 +53,11 @@
     "weapon": "Hollow Denial",
     "gambit": "",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "hollowdenial-nightfall.jpg",
     "slug": "hollowdenial",
     "credit_gambit": "",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/TrialScroll"
   },
   {
     "season": "Season of the Haunted",
@@ -87,11 +87,11 @@
     "season": "Season of the Haunted",
     "group": "Opulent Weapons",
     "weapon": "Austringer Ornament #1",
-    "gambit": "",
+    "gambit": "austringerornament1-gambit.jpg",
     "trials": "austringerornament1-trials.jpg",
     "nightfall": "austringerornament1-nightfall.jpg",
     "slug": "austringerornament1",
-    "credit_gambit": "",
+    "credit_gambit": "Bringle",
     "credit_trials": "Benny Clips (YT)",
     "credit_nightfall": "@Separer"
   },
@@ -101,11 +101,11 @@
     "weapon": "Austringer Ornament #2",
     "gambit": "austringerornament2-gambit.jpg",
     "trials": "austringerornament2-trials.jpg",
-    "nightfall": "",
+    "nightfall": "austringerornament2-nightfall.jpg",
     "slug": "austringerornament2",
     "credit_gambit": "@PawnShopEd",
     "credit_trials": "Benny Clips (YT)",
-    "credit_nightfall": ""
+    "credit_nightfall": "@roguEsoteric"
   },
   {
     "season": "Season of the Haunted",
@@ -125,11 +125,11 @@
     "weapon": "Drang Ornament",
     "gambit": "",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "drangornament-nightfall.jpg",
     "slug": "drangornament",
     "credit_gambit": "",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/Rornicus"
   },
   {
     "season": "Season of the Haunted",
@@ -161,11 +161,11 @@
     "weapon": "The Epicurean",
     "gambit": "",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "theepicurean-nightfall.jpg",
     "slug": "theepicurean",
     "credit_gambit": "",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "@D2Mementos"
   },
   {
     "season": "Season of the Haunted",
@@ -173,11 +173,11 @@
     "weapon": "The Epicurean Ornament",
     "gambit": "",
     "trials": "",
-    "nightfall": "theepicureanornament-nightfall.jpg",
+    "nightfall": "",
     "slug": "theepicureanornament",
     "credit_gambit": "",
     "credit_trials": "",
-    "credit_nightfall": "@D2Mementos"
+    "credit_nightfall": ""
   },
   {
     "season": "Season of the Haunted",
@@ -209,11 +209,23 @@
     "weapon": "Fixed Odds",
     "gambit": "",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "fixedodds-nightfall.jpg",
     "slug": "fixedodds",
     "credit_gambit": "",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "@TheInfilNova"
+  },
+  {
+    "season": "Season of the Haunted",
+    "group": "Opulent Weapons",
+    "weapon": "Fixed Odds Ornament",
+    "gambit": "",
+    "trials": "",
+    "nightfall": "fixedoddsornament-nightfall.jpg",
+    "slug": "fixedoddsornament",
+    "credit_gambit": "",
+    "credit_trials": "",
+    "credit_nightfall": "@TheInfilNova"
   },
   {
     "season": "Season of the Risen",
