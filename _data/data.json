@@ -29,23 +29,23 @@
     "weapon": "Nezarec's Whisper",
     "gambit": "nezarecswhisper-gambit.jpg",
     "trials": "nezarecswhisper-trials.jpg",
-    "nightfall": "",
+    "nightfall": "nezarecswhisper-nightfall.jpg",
     "slug": "nezarecswhisper",
     "credit_gambit": "@notrgx",
     "credit_trials": "@hotfoxinsocks",
-    "credit_nightfall": ""
+    "credit_nightfall": "@LuitenantDan"
   },
   {
     "season": "Season of the Haunted",
     "group": "Haunted Weapons",
     "weapon": "Without Remorse",
-    "gambit": "",
+    "gambit": "withoutremorse-gambit.jpg",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "withoutremorse-nightfall.jpg",
     "slug": "withoutremorse",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "TheLastJoaquin",
+    "credit_trials": "TheLastJoaquin",
+    "credit_nightfall": "TheLastJoaquin"
   },
   {
     "season": "Season of the Haunted",
@@ -124,11 +124,11 @@
     "group": "Opulent Weapons",
     "weapon": "Drang Ornament",
     "gambit": "",
-    "trials": "",
+    "trials": "drangornament-trials.jpg",
     "nightfall": "drangornament-nightfall.jpg",
     "slug": "drangornament",
     "credit_gambit": "",
-    "credit_trials": "",
+    "credit_trials": "/u/Bahamutreborn",
     "credit_nightfall": "/u/Rornicus"
   },
   {
@@ -173,7 +173,7 @@
     "weapon": "The Epicurean Ornament",
     "gambit": "",
     "trials": "",
-    "nightfall": "",
+    "nightfall": "theepicureanornament-nightfall.jpg",
     "slug": "theepicureanornament",
     "credit_gambit": "",
     "credit_trials": "",
