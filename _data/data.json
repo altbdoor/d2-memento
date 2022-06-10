@@ -3,13 +3,13 @@
     "season": "Season of the Haunted",
     "group": "Haunted Weapons",
     "weapon": "Firefright",
-    "gambit": "",
+    "gambit": "firefright-gambit.jpg",
     "trials": "firefright-trials.jpg",
-    "nightfall": "",
+    "nightfall": "firefright-nightfall.jpg",
     "slug": "firefright",
-    "credit_gambit": "",
+    "credit_gambit": "@spindrift",
     "credit_trials": "@OrionzDestiny",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/Phaazed"
   },
   {
     "season": "Season of the Haunted",
