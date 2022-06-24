@@ -159,24 +159,24 @@
     "season": "Season of the Haunted",
     "group": "Opulent Weapons",
     "weapon": "The Epicurean",
-    "gambit": "",
-    "trials": "",
+    "gambit": "theepicurean-gambit.jpg",
+    "trials": "theepicurean-trials.jpg",
     "nightfall": "theepicurean-nightfall.jpg",
     "slug": "theepicurean",
-    "credit_gambit": "",
-    "credit_trials": "",
+    "credit_gambit": "/u/Mercerrrr",
+    "credit_trials": "Copperhead013",
     "credit_nightfall": "@D2Mementos"
   },
   {
     "season": "Season of the Haunted",
     "group": "Opulent Weapons",
     "weapon": "The Epicurean Ornament",
-    "gambit": "",
-    "trials": "",
+    "gambit": "theepicureanornament-gambit.jpg",
+    "trials": "theepicureanornament-trials.jpg",
     "nightfall": "theepicureanornament-nightfall.jpg",
     "slug": "theepicureanornament",
-    "credit_gambit": "",
-    "credit_trials": "",
+    "credit_gambit": "/u/Mercerrrr",
+    "credit_trials": "Copperhead013",
     "credit_nightfall": ""
   },
   {
@@ -208,24 +208,24 @@
     "group": "Opulent Weapons",
     "weapon": "Fixed Odds",
     "gambit": "fixedodds-gambit.jpg",
-    "trials": "",
+    "trials": "fixedodds-trials.jpg",
     "nightfall": "fixedodds-nightfall.jpg",
     "slug": "fixedodds",
     "credit_gambit": "/u/TrialScroll",
-    "credit_trials": "",
-    "credit_nightfall": "@TheInfilNova"
+    "credit_trials": "@MLGKimo",
+    "credit_nightfall": "@TheInfiNova"
   },
   {
     "season": "Season of the Haunted",
     "group": "Opulent Weapons",
     "weapon": "Fixed Odds Ornament",
     "gambit": "fixedoddsornament-gambit.jpg",
-    "trials": "",
+    "trials": "fixedoddsornament-trials.jpg",
     "nightfall": "fixedoddsornament-nightfall.jpg",
     "slug": "fixedoddsornament",
     "credit_gambit": "/u/TrialScroll",
-    "credit_trials": "",
-    "credit_nightfall": "@TheInfilNova"
+    "credit_trials": "@MLGKimo",
+    "credit_nightfall": "@TheInfiNova"
   },
   {
     "season": "Season of the Risen",
