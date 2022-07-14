@@ -43,9 +43,9 @@
     "trials": "withoutremorse-trials.jpg",
     "nightfall": "withoutremorse-nightfall.jpg",
     "slug": "withoutremorse",
-    "credit_gambit": "TheLastJoaquin",
-    "credit_trials": "TheLastJoaquin",
-    "credit_nightfall": "TheLastJoaquin"
+    "credit_gambit": "@TheLastJoaquin",
+    "credit_trials": "@TheLastJoaquin",
+    "credit_nightfall": "@TheLastJoaquin"
   },
   {
     "season": "Season of the Haunted",
@@ -139,8 +139,8 @@
     "trials": "calusminitool-trials.jpg",
     "nightfall": "calusminitool-nightfall.jpg",
     "slug": "calusminitool",
-    "credit_gambit": "TheLastJoaquin",
-    "credit_trials": "TheLastJoaquin",
+    "credit_gambit": "@TheLastJoaquin",
+    "credit_trials": "@TheLastJoaquin",
     "credit_nightfall": "@SkankinZombie"
   },
   {
@@ -151,8 +151,8 @@
     "trials": "minitoolornament-trials.jpg",
     "nightfall": "minitoolornament-nightfall.jpg",
     "slug": "minitoolornament",
-    "credit_gambit": "TheLastJoaquin",
-    "credit_trials": "TheLastJoaquin",
+    "credit_gambit": "@TheLastJoaquin",
+    "credit_trials": "@TheLastJoaquin",
     "credit_nightfall": "@SkankinZombie"
   },
   {
@@ -173,11 +173,11 @@
     "weapon": "The Epicurean Ornament",
     "gambit": "theepicureanornament-gambit.jpg",
     "trials": "theepicureanornament-trials.jpg",
-    "nightfall": "",
+    "nightfall": "theepicureanornament-nightfall.jpg",
     "slug": "theepicureanornament",
     "credit_gambit": "/u/Mercerrrr",
     "credit_trials": "Copperhead013",
-    "credit_nightfall": ""
+    "credit_nightfall": "@OatsFX"
   },
   {
     "season": "Season of the Haunted",
@@ -236,8 +236,8 @@
     "nightfall": "cometopass-nightfall.jpg",
     "slug": "cometopass",
     "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_trials": "/u/Tommygun7468",
+    "credit_nightfall": "/u/JosephBono"
   },
   {
     "season": "Season of the Risen",
@@ -247,9 +247,9 @@
     "trials": "feltaradiddle-trials.jpg",
     "nightfall": "feltaradiddle-nightfall.jpg",
     "slug": "feltaradiddle",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/Eremoo",
+    "credit_trials": "/u/gaywaddledee",
+    "credit_nightfall": "/u/Rornicus"
   },
   {
     "season": "Season of the Risen",
@@ -259,9 +259,9 @@
     "trials": "pointedinquiry-trials.jpg",
     "nightfall": "pointedinquiry-nightfall.jpg",
     "slug": "pointedinquiry",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/tomsch40k",
+    "credit_trials": "/u/OverlordJumper",
+    "credit_nightfall": "/u/IAmATriceratops"
   },
   {
     "season": "Season of the Risen",
@@ -271,9 +271,9 @@
     "trials": "empiricalevidence-trials.jpg",
     "nightfall": "empiricalevidence-nightfall.jpg",
     "slug": "empiricalevidence",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/JosephBono",
+    "credit_trials": "Lagomorphus",
+    "credit_nightfall": "/u/Sword_by_some"
   },
   {
     "season": "Season of the Risen",
@@ -283,9 +283,9 @@
     "trials": "forensicnightmare-trials.jpg",
     "nightfall": "forensicnightmare-nightfall.jpg",
     "slug": "forensicnightmare",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@KimberPrime",
+    "credit_trials": "/u/Teh_Waffle_Iron",
+    "credit_nightfall": "/u/gaywaddledee"
   },
   {
     "season": "Season of the Risen",
@@ -295,9 +295,9 @@
     "trials": "likelysuspect-trials.jpg",
     "nightfall": "likelysuspect-nightfall.jpg",
     "slug": "likelysuspect",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "KnuckleHead",
+    "credit_trials": "JoStodd",
+    "credit_nightfall": "/u/notmashed"
   },
   {
     "season": "Season of the Risen",
@@ -307,9 +307,9 @@
     "trials": "fatherssins-trials.jpg",
     "nightfall": "fatherssins-nightfall.jpg",
     "slug": "fatherssins",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/Kvzr",
+    "credit_trials": "/u/katastr0phi_",
+    "credit_nightfall": "/u/JosephBono"
   },
   {
     "season": "Season of the Risen",
@@ -319,9 +319,9 @@
     "trials": "tarnation-trials.jpg",
     "nightfall": "tarnation-nightfall.jpg",
     "slug": "tarnation",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@rictone87",
+    "credit_trials": "/u/Voidbrand",
+    "credit_nightfall": "/u/Pantsi"
   },
   {
     "season": "Season of the Risen",
@@ -331,9 +331,9 @@
     "trials": "redherring-trials.jpg",
     "nightfall": "redherring-nightfall.jpg",
     "slug": "redherring",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@KimberPrime",
+    "credit_trials": "@KimberPrime",
+    "credit_nightfall": "/u/Jatholomew"
   },
   {
     "season": "Season of the Risen",
@@ -343,9 +343,9 @@
     "trials": "theenigma-trials.jpg",
     "nightfall": "theenigma-nightfall.jpg",
     "slug": "theenigma",
-    "credit_gambit": "",
+    "credit_gambit": "/u/KING2BIG",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/Yuenan01"
   },
   {
     "season": "Season of the Risen",
@@ -355,9 +355,9 @@
     "trials": "sweetsorrow-trials.jpg",
     "nightfall": "sweetsorrow-nightfall.jpg",
     "slug": "sweetsorrow",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@KimberPrime",
+    "credit_trials": "@KimberPrime",
+    "credit_nightfall": "/u/JosephBono"
   },
   {
     "season": "Season of the Risen",
@@ -367,7 +367,7 @@
     "trials": "underyourskin-trials.jpg",
     "nightfall": "underyourskin-nightfall.jpg",
     "slug": "underyourskin",
-    "credit_gambit": "",
+    "credit_gambit": "/u/Misterbreadcrum",
     "credit_trials": "",
     "credit_nightfall": ""
   },
@@ -379,9 +379,9 @@
     "trials": "pieceofmind-trials.jpg",
     "nightfall": "pieceofmind-nightfall.jpg",
     "slug": "pieceofmind",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/katastr0phi_",
+    "credit_trials": "Hoizin",
+    "credit_nightfall": "Artifex"
   },
   {
     "season": "Season of the Risen",
@@ -391,9 +391,9 @@
     "trials": "explosivepersonality-trials.jpg",
     "nightfall": "explosivepersonality-nightfall.jpg",
     "slug": "explosivepersonality",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/yellowjacket77sc",
+    "credit_trials": "/u/Rornicus",
+    "credit_nightfall": "Artifex"
   },
   {
     "season": "Season of the Risen",
@@ -403,8 +403,8 @@
     "trials": "thoughtless-trials.jpg",
     "nightfall": "thoughtless-nightfall.jpg",
     "slug": "thoughtless",
-    "credit_gambit": "",
-    "credit_trials": "",
+    "credit_gambit": "/u/beefriot",
+    "credit_trials": "/u/onekumar*",
     "credit_nightfall": ""
   },
   {
@@ -415,8 +415,8 @@
     "trials": "recurrentimpact-trials.jpg",
     "nightfall": "recurrentimpact-nightfall.jpg",
     "slug": "recurrentimpact",
-    "credit_gambit": "",
-    "credit_trials": "",
+    "credit_gambit": "/u/mehblahwhatever",
+    "credit_trials": "/u/DoomPlatypus",
     "credit_nightfall": ""
   },
   {
@@ -427,9 +427,9 @@
     "trials": "syncopation53-trials.jpg",
     "nightfall": "syncopation53-nightfall.jpg",
     "slug": "syncopation53",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/Whomi14",
+    "credit_trials": "@Kakamile*",
+    "credit_nightfall": "/u/Yuenan01"
   },
   {
     "season": "Season of the Risen",
@@ -439,9 +439,9 @@
     "trials": "palmyrab-trials.jpg",
     "nightfall": "palmyrab-nightfall.jpg",
     "slug": "palmyrab",
-    "credit_gambit": "",
+    "credit_gambit": "Big Poopa",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "@EclipseDestiny2"
   },
   {
     "season": "Season of the Risen",
@@ -451,9 +451,9 @@
     "trials": "ragnhildd-trials.jpg",
     "nightfall": "ragnhildd-nightfall.jpg",
     "slug": "ragnhildd",
-    "credit_gambit": "",
+    "credit_gambit": "/u/daniellavareda",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/blakeoft"
   },
   {
     "season": "Season of the Risen",
@@ -463,8 +463,8 @@
     "trials": "insidious-trials.jpg",
     "nightfall": "insidious-nightfall.jpg",
     "slug": "insidious",
-    "credit_gambit": "",
-    "credit_trials": "",
+    "credit_gambit": "/u/jominjelagon",
+    "credit_trials": "/u/jetrius",
     "credit_nightfall": ""
   },
   {
@@ -475,9 +475,9 @@
     "trials": "submission-trials.jpg",
     "nightfall": "submission-nightfall.jpg",
     "slug": "submission",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/aaronbond",
+    "credit_trials": "@TheLastJoaquin",
+    "credit_nightfall": "Nobody"
   },
   {
     "season": "Season of the Risen",
@@ -487,9 +487,9 @@
     "trials": "deliverance-trials.jpg",
     "nightfall": "deliverance-nightfall.jpg",
     "slug": "deliverance",
-    "credit_gambit": "",
+    "credit_gambit": "@KimberPrime",
     "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_nightfall": "/u/The_Fedderation"
   },
   {
     "season": "Season of the Risen",
@@ -499,9 +499,9 @@
     "trials": "lubraesruin-trials.jpg",
     "nightfall": "lubraesruin-nightfall.jpg",
     "slug": "lubraesruin",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@TheLastJoaquin*",
+    "credit_trials": "/u/Voidbrand*",
+    "credit_nightfall": "/u/lobata25"
   },
   {
     "season": "Season of the Risen",
@@ -511,9 +511,9 @@
     "trials": "forbearance-trials.jpg",
     "nightfall": "forbearance-nightfall.jpg",
     "slug": "forbearance",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@KimberPrime",
+    "credit_trials": "/u/Cohesion420",
+    "credit_nightfall": "/u/JavTheNoob"
   },
   {
     "season": "Season of the Risen",
@@ -524,7 +524,7 @@
     "nightfall": "cataclysmic-nightfall.jpg",
     "slug": "cataclysmic",
     "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_trials": "Wallace",
+    "credit_nightfall": "/u/JavTheNoob"
   }
 ]
