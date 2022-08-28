@@ -35,7 +35,6 @@ $headers = @(
     'CreditNightfall'
 )
 $csv = Import-Csv -Path 'output/input.csv' -Header $headers
-$csv = $csv | Select-Object -Skip 3
 
 $creditHeaders = @(
     'credit_gambit',

@@ -32,8 +32,19 @@ while ws.merged_cells:
                 cell.value = merged.start_cell.value
 
 with open('output/input.csv', 'w', newline='') as fp:
-    csv_writer = csv.writer(fp)
-    for row in ws.rows:
-        csv_writer.writerow([cell.value for cell in row])
+    csv_writer = csv.writer(fp, lineterminator="\n")
+    col_values = [first_col for (first_col, ) in ws.iter_rows(max_col=1, values_only=True)]
+    start_idx = 0
+
+    try:
+        start_idx = col_values.index('Season')
+    except ValueError as ex:
+        print(ex)
+
+    for row in ws.iter_rows(min_row=start_idx + 1, values_only=True):
+        if all([cell == None for cell in row]):
+            continue
+
+        csv_writer.writerow(row)
 
 os.remove(xlsx_file)
