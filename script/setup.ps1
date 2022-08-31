@@ -35,6 +35,7 @@ $headers = @(
     'CreditNightfall'
 )
 $csv = Import-Csv -Path 'output/input.csv' -Header $headers
+$csv = $csv | Select-Object -Skip 1
 
 $creditHeaders = @(
     'credit_gambit',
@@ -87,7 +88,7 @@ foreach ($datum in $data) {
     foreach ($act in $activities) {
         $imageUrl = $datum.($act)
 
-        if ($imageUrl -match 'imgur.com/a/') {
+        if ($imageUrl -match 'imgur.com/a/' -or $imageUrl -imatch '^https:\/\/imgur\.com\/\w+$') {
             $html = (Invoke-WebRequest -Uri $imageUrl).Content
             $imageUrl = $html | Select-String -Pattern '"https://i.imgur.com/.+?"' | ForEach-Object { $_.Matches.Value } | Select-Object -First 1
             $imageUrl = $imageUrl -replace '"', ''
