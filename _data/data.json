@@ -87,13 +87,13 @@
     "season": "Season of Plunder",
     "group": "Plundered Weapons",
     "weapon": "Brigand's Law",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "brigandslaw-gambit.jpg",
+    "trials": "brigandslaw-trials.jpg",
+    "nightfall": "brigandslaw-nightfall.jpg",
     "slug": "brigandslaw",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "Squid",
+    "credit_trials": "Squid",
+    "credit_nightfall": "Squid"
   },
   {
     "season": "Season of Plunder",
@@ -103,9 +103,9 @@
     "trials": "bloodfeud-trials.jpg",
     "nightfall": "bloodfeud-nightfall.jpg",
     "slug": "bloodfeud",
-    "credit_gambit": "@HippyCoolFrog",
-    "credit_trials": "@HippyCoolFrog",
-    "credit_nightfall": "@HippyCoolFrog"
+    "credit_gambit": "Ayanhe#1609",
+    "credit_trials": "Ayanhe#1609",
+    "credit_nightfall": "Ayanhe#1609"
   },
   {
     "season": "Season of Plunder",
