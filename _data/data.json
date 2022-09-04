@@ -111,13 +111,13 @@
     "season": "Season of Plunder",
     "group": "Plundered Weapons",
     "weapon": "No Reprieve",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "noreprieve-gambit.jpg",
+    "trials": "noreprieve-trials.jpg",
+    "nightfall": "noreprieve-nightfall.jpg",
     "slug": "noreprieve",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/Morphus1121",
+    "credit_trials": "/u/Morphus1121",
+    "credit_nightfall": "/u/Morphus1121"
   },
   {
     "season": "Season of Plunder",
@@ -194,18 +194,6 @@
   {
     "season": "Season of Plunder",
     "group": "King's Fall",
-    "weapon": "Doom of Chelchis",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
-    "slug": "doomofchelchis",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
-  },
-  {
-    "season": "Season of Plunder",
-    "group": "King's Fall",
     "weapon": "Midha's Reckoning",
     "gambit": "",
     "trials": "",
@@ -243,13 +231,13 @@
     "season": "Season of Plunder",
     "group": "King's Fall",
     "weapon": "Doom of Chelchis",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "doomofchelchis-gambit.jpg",
+    "trials": "doomofchelchis-trials.jpg",
+    "nightfall": "doomofchelchis-nightfall.jpg",
     "slug": "doomofchelchis",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "/u/Cascading-Peritectic",
+    "credit_trials": "/u/Cascading-Peritectic",
+    "credit_nightfall": "/u/Cascading-Peritectic"
   },
   {
     "season": "Season of the Haunted",
