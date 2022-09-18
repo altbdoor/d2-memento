@@ -75,13 +75,13 @@
     "season": "Season of Plunder",
     "group": "Plundered Weapons",
     "weapon": "Tarnished Mettle",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "tarnishedmettle-gambit.jpg",
+    "trials": "tarnishedmettle-trials.jpg",
+    "nightfall": "tarnishedmettle-nightfall.jpg",
     "slug": "tarnishedmettle",
-    "credit_gambit": "This person offered but never sent me the pictures so if anyone else has it",
-    "credit_trials": "This person offered but never sent me the pictures so if anyone else has it",
-    "credit_nightfall": "This person offered but never sent me the pictures so if anyone else has it"
+    "credit_gambit": "Shadebinder",
+    "credit_trials": "Shadebinder",
+    "credit_nightfall": "Shadebinder"
   },
   {
     "season": "Season of Plunder",
@@ -195,13 +195,13 @@
     "season": "Season of Plunder",
     "group": "King's Fall",
     "weapon": "Midha's Reckoning",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "midhasreckoning-gambit.jpg",
+    "trials": "midhasreckoning-trials.jpg",
+    "nightfall": "midhasreckoning-nightfall.jpg",
     "slug": "midhasreckoning",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "@smilesbuckett",
+    "credit_trials": "@smilesbuckett",
+    "credit_nightfall": "@smilesbuckett"
   },
   {
     "season": "Season of Plunder",
@@ -219,13 +219,13 @@
     "season": "Season of Plunder",
     "group": "King's Fall",
     "weapon": "Qullim's Terminus",
-    "gambit": "",
-    "trials": "",
-    "nightfall": "",
+    "gambit": "qullimsterminus-gambit.jpg",
+    "trials": "qullimsterminus-trials.jpg",
+    "nightfall": "qullimsterminus-nightfall.jpg",
     "slug": "qullimsterminus",
-    "credit_gambit": "",
-    "credit_trials": "",
-    "credit_nightfall": ""
+    "credit_gambit": "Shadebinder",
+    "credit_trials": "Shadebinder",
+    "credit_nightfall": "Shadebinder"
   },
   {
     "season": "Season of Plunder",
@@ -235,6 +235,18 @@
     "trials": "doomofchelchis-trials.jpg",
     "nightfall": "doomofchelchis-nightfall.jpg",
     "slug": "doomofchelchis",
+    "credit_gambit": "/u/Cascading-Peritectic",
+    "credit_trials": "/u/Cascading-Peritectic",
+    "credit_nightfall": "/u/Cascading-Peritectic"
+  },
+  {
+    "season": "Season of Plunder",
+    "group": "King's Fall",
+    "weapon": "Doom of Chelchis (Pre-Update)",
+    "gambit": "doomofchelchispreupdate-gambit.jpg",
+    "trials": "doomofchelchispreupdate-trials.jpg",
+    "nightfall": "doomofchelchispreupdate-nightfall.jpg",
+    "slug": "doomofchelchispreupdate",
     "credit_gambit": "/u/Cascading-Peritectic",
     "credit_trials": "/u/Cascading-Peritectic",
     "credit_nightfall": "/u/Cascading-Peritectic"
