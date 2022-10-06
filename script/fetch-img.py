@@ -7,6 +7,7 @@ import shutil
 import sys
 import requests
 import filetype
+from PIL import Image
 
 
 DATUM_TYPE = dict[str, str]
@@ -38,7 +39,7 @@ def main():
     if not os.path.exists("images"):
         os.mkdir("images")
 
-    with open("output/data.json", "r") as fp:
+    with open("output/csv-parsed.json", "r") as fp:
         data: list[DATUM_TYPE] = json.load(fp)
 
     activities = ["gambit", "trials", "nightfall"]
@@ -54,6 +55,27 @@ def main():
 
     pool.close()
     pool.join()
+
+    images = os.listdir("images")
+    for datum in data:
+        for act in activities:
+            image_filename = f'{datum["slug"]}-{act}'
+            datum[act] = [img for img in images if img.startswith(image_filename)].pop()
+
+            if datum[act].endswith(".png"):
+                print(f"(i) converting {datum[act]} to JPG")
+                png_path = f"images/{datum[act]}"
+                jpg_path = png_path.replace(".png", ".jpg")
+
+                with Image.open(png_path) as img:
+                    rgb_im = img.convert("RGB")
+                    rgb_im.save(jpg_path, quality=90)
+
+                datum[act] = jpg_path.replace("images/", "")
+                os.remove(png_path)
+
+    with open("output/data.json", "w") as fp:
+        json.dump(data, fp, indent=4)
 
 
 if __name__ == "__main__":

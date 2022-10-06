@@ -89,7 +89,7 @@ def main():
 
             datum[act] = image_url
 
-    with open("output/data.json", "w") as fp:
+    with open("output/csv-parsed.json", "w") as fp:
         json.dump(data, fp, indent=4)
 
 
