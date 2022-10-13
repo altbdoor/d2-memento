@@ -28,7 +28,13 @@ def get_images(image_url: str, image_filename: str):
 
     kind = filetype.guess(image_filename)
     if kind.mime == "image/png":
-        os.rename(image_filename, f"{image_filename}.png")
+        print(f"(i) converting {image_filename} to JPG")
+
+        with Image.open(image_filename) as img:
+            rgb_im = img.convert("RGB")
+            rgb_im.save(f"{image_filename}.jpg", quality=90)
+
+        os.remove(image_filename)
     elif kind.mime == "image/jpeg":
         os.rename(image_filename, f"{image_filename}.jpg")
 
@@ -60,19 +66,12 @@ def main():
     for datum in data:
         for act in activities:
             image_filename = f'{datum["slug"]}-{act}'
-            datum[act] = [img for img in images if img.startswith(image_filename)].pop()
+            found_images = [img for img in images if img.startswith(image_filename)]
 
-            if datum[act].endswith(".png"):
-                print(f"(i) converting {datum[act]} to JPG")
-                png_path = f"images/{datum[act]}"
-                jpg_path = png_path.replace(".png", ".jpg")
-
-                with Image.open(png_path) as img:
-                    rgb_im = img.convert("RGB")
-                    rgb_im.save(jpg_path, quality=90)
-
-                datum[act] = jpg_path.replace("images/", "")
-                os.remove(png_path)
+            if len(found_images) != 1:
+                raise Exception("(!) duplicate images found")
+            else:
+                datum[act] = found_images.pop()
 
     with open("output/data.json", "w") as fp:
         json.dump(data, fp, indent=4)
