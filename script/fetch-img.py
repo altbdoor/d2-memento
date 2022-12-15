@@ -57,6 +57,10 @@ def main():
         for act in activities:
             image_url = datum[act]
             image_filename = f'images/{datum["slug"]}-{act}'
+            if image_url == "":
+                print(f"(i) skipping {image_filename}")
+                continue
+
             pool.apply_async(get_images, args=(image_url, image_filename))
 
     pool.close()
@@ -68,10 +72,12 @@ def main():
             image_filename = f'{datum["slug"]}-{act}'
             found_images = [img for img in images if img.startswith(image_filename)]
 
-            if len(found_images) != 1:
-                raise Exception("(!) duplicate images found")
-            else:
+            if len(found_images) == 0:
+                datum[act] = ""
+            elif len(found_images) == 1:
                 datum[act] = found_images.pop()
+            else:
+                raise Exception(f"(!) duplicate images found for {image_filename}")
 
     with open("output/data.json", "w") as fp:
         json.dump(data, fp, indent=4)
