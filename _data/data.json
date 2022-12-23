@@ -7,9 +7,9 @@
         "trials": "",
         "nightfall": "",
         "slug": "ikeloshcv103",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "Lil Crusader",
+        "credit_trials": "Lil Crusader",
+        "credit_nightfall": "Lil Crusader"
     },
     {
         "season": "Season of the Seraph",
@@ -27,13 +27,13 @@
         "season": "Season of the Seraph",
         "group": "IKELOS",
         "weapon": "IKELOS_SG_V1.0.3",
-        "gambit": "",
-        "trials": "",
-        "nightfall": "",
+        "gambit": "ikelossgv103-gambit.jpg",
+        "trials": "ikelossgv103-trials.jpg",
+        "nightfall": "ikelossgv103-nightfall.jpg",
         "slug": "ikelossgv103",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "IndianNinja",
+        "credit_trials": "IndianNinja",
+        "credit_nightfall": "IndianNinja"
     },
     {
         "season": "Season of the Seraph",
@@ -63,37 +63,37 @@
         "season": "Season of the Seraph",
         "group": "Seraph Weapons",
         "weapon": "Tripwire Canary",
-        "gambit": "",
-        "trials": "",
-        "nightfall": "",
+        "gambit": "tripwirecanary-gambit.jpg",
+        "trials": "tripwirecanary-trials.jpg",
+        "nightfall": "tripwirecanary-nightfall.jpg",
         "slug": "tripwirecanary",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "IndianNinja",
+        "credit_trials": "IndianNinja",
+        "credit_nightfall": "IndianNinja"
     },
     {
         "season": "Season of the Seraph",
         "group": "Seraph Weapons",
         "weapon": "Judgement of Kelgorath",
-        "gambit": "",
-        "trials": "",
-        "nightfall": "",
+        "gambit": "judgementofkelgorath-gambit.jpg",
+        "trials": "judgementofkelgorath-trials.jpg",
+        "nightfall": "judgementofkelgorath-nightfall.jpg",
         "slug": "judgementofkelgorath",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "Wavyy Brian",
+        "credit_trials": "Wavyy Brian",
+        "credit_nightfall": "Wavyy Brian"
     },
     {
         "season": "Season of the Seraph",
         "group": "Seraph Weapons",
         "weapon": "Path of Least Resistance",
-        "gambit": "",
-        "trials": "",
-        "nightfall": "",
+        "gambit": "pathofleastresistance-gambit.jpg",
+        "trials": "pathofleastresistance-trials.jpg",
+        "nightfall": "pathofleastresistance-nightfall.jpg",
         "slug": "pathofleastresistance",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "Scentic",
+        "credit_trials": "Scentic",
+        "credit_nightfall": "Scentic"
     },
     {
         "season": "Season of the Seraph",
@@ -111,13 +111,13 @@
         "season": "Season of the Seraph",
         "group": "Seraph Weapons",
         "weapon": "Retrofit Escapade",
-        "gambit": "",
-        "trials": "",
-        "nightfall": "",
+        "gambit": "retrofitescapade-gambit.jpg",
+        "trials": "retrofitescapade-trials.jpg",
+        "nightfall": "retrofitescapade-nightfall.jpg",
         "slug": "retrofitescapade",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "Scentic",
+        "credit_trials": "Scentic",
+        "credit_nightfall": "Scentic"
     },
     {
         "season": "Season of the Seraph",
@@ -127,9 +127,9 @@
         "trials": "",
         "nightfall": "",
         "slug": "posterity",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "Cyrel",
+        "credit_trials": "Cyrel",
+        "credit_nightfall": "Cyrel"
     },
     {
         "season": "Season of the Seraph",
@@ -163,9 +163,9 @@
         "trials": "",
         "nightfall": "",
         "slug": "succession",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "@TheInfiNova",
+        "credit_trials": "@TheInfiNova",
+        "credit_nightfall": "@TheInfiNova"
     },
     {
         "season": "Season of the Seraph",
@@ -187,9 +187,9 @@
         "trials": "",
         "nightfall": "",
         "slug": "bequest",
-        "credit_gambit": "",
-        "credit_trials": "",
-        "credit_nightfall": ""
+        "credit_gambit": "@Ayanhe",
+        "credit_trials": "@Ayanhe",
+        "credit_nightfall": "@Ayanhe"
     },
     {
         "season": "Season of Plunder",
@@ -793,7 +793,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Sweet Sorrow",
         "gambit": "sweetsorrow-gambit.jpg",
         "trials": "sweetsorrow-trials.jpg",
@@ -805,7 +805,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Under Your Skin",
         "gambit": "underyourskin-gambit.jpg",
         "trials": "underyourskin-trials.jpg",
@@ -817,7 +817,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Piece of Mind",
         "gambit": "pieceofmind-gambit.jpg",
         "trials": "pieceofmind-trials.jpg",
@@ -829,7 +829,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Explosive Personality",
         "gambit": "explosivepersonality-gambit.jpg",
         "trials": "explosivepersonality-trials.jpg",
@@ -841,7 +841,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Thoughtless",
         "gambit": "thoughtless-gambit.jpg",
         "trials": "thoughtless-trials.jpg",
@@ -853,7 +853,7 @@
     },
     {
         "season": "Season of the Risen",
-        "group": "Risen (Seasonal)",
+        "group": "Risen Weapons",
         "weapon": "Recurrent Impact",
         "gambit": "recurrentimpact-gambit.jpg",
         "trials": "recurrentimpact-trials.jpg",
