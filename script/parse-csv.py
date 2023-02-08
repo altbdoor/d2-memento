@@ -7,11 +7,19 @@ import re
 import sys
 import requests
 
+from bs4 import BeautifulSoup
+
 
 DATUM_TYPE = dict[str, str]
+DEFAULT_IMGUR_PROXY = "rimgo.bus-hit.me"
+PROXY_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko"
+)
 
 
 def main():
+    imgur_proxy = os.getenv("IMGUR_PROXY", DEFAULT_IMGUR_PROXY)
+
     credit_headers = ["credit_gambit", "credit_trials", "credit_nightfall"]
     all_headers = [
         "season",
@@ -68,17 +76,14 @@ def main():
             print(f'(i) processing {datum["weapon"]}, {act}, {image_url}')
 
             if "imgur.com/a/" in image_url:
-                image_url = "/".join([*image_url.split("/"), "layout", "blog"])
+                page_url = image_url.replace("imgur.com", imgur_proxy)
+                with requests.get(
+                    page_url, headers={"User-Agent": PROXY_USER_AGENT}
+                ) as res:
+                    soup = BeautifulSoup(res.text, "html.parser")
+                    img_src = soup.select_one(".post__media > img")["src"]
 
-                with requests.get(image_url) as res:
-                    imgur_links = re.findall(
-                        r'"https:\/\/i\.imgur\.com\/.+?"', res.text
-                    )
-
-                    if len(imgur_links) > 0:
-                        image_url = imgur_links[0].replace('"', "")
-                    else:
-                        print(f"(!) unable to find image for {image_url}")
+                image_url = f"https://i.imgur.com{img_src}"
 
             elif imgur_id := re.match(r"^https:\/\/imgur\.com\/(\w+)$", image_url):
                 image_url = f"https://i.imgur.com/{imgur_id.group(1)}.jpg"
