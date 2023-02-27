@@ -1,6 +1,6 @@
 # d2-memento
 
-Curated by [/u/TheLastJoaquin](https://www.reddit.com/user/TheLastJoaquin), check out the [source spreadsheet](https://docs.google.com/spreadsheets/d/1Msr7Vdqfa6MlMXYSlERAnbTwEr4Fd7rVe2uvxaPjo14) source spreadsheet!
+Curated by [/u/TheLastJoaquin](https://www.reddit.com/user/TheLastJoaquin), check out the [source spreadsheet](https://docs.google.com/spreadsheets/d/1Msr7Vdqfa6MlMXYSlERAnbTwEr4Fd7rVe2uvxaPjo14)!
 
 Much thanks to all data contributors!
 
@@ -9,7 +9,7 @@ Much thanks to all data contributors!
 ### Quick install
 
 1. Requirements:
-    - Python 3.x
+    - Python 3.11.x
     - Git Bash for Windows (or just Git on Unix)
 1. Setup the Python virtual environment. ([?](https://docs.python.org/3/library/venv.html))
 1. Run `pip install -r ./script/requirements.txt`
