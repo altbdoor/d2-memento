@@ -56,6 +56,10 @@ def main():
                 "credit_nightfall": row.get("credit_nightfall", "").strip(),
             }
 
+            # no name for weapon, placeholders for coming soon weapons
+            if datum["weapon"] == "":
+                continue
+
             for header in activity_headers:
                 if not datum[header].startswith("http"):
                     datum[header] = ""
