@@ -7,6 +7,7 @@ from requests.auth import HTTPBasicAuth
 import hashlib
 import json
 from time import time
+import tarfile
 
 KEY_ID = os.getenv("KEY_ID")
 KEY = os.getenv("KEY")
@@ -15,8 +16,28 @@ BUCKET_ID = "90b6fa139c49d24d8b37051c"
 BASE_URL = "https://api.backblazeb2.com/b2api/v2"
 
 
+# https://docs.python.org/3/library/tarfile.html#examples
+def reset_tarinfo(tarinfo: tarfile.TarInfo):
+    tarinfo.uid = 0
+    tarinfo.gid = 0
+    tarinfo.uname = "root"
+    tarinfo.gname = "root"
+    return tarinfo
+
+
 def main():
     os.chdir(sys.path[0])
+    tar_path = os.path.join(sys.path[0], "images.tar")
+
+    if os.path.exists(tar_path):
+        os.unlink(tar_path)
+
+    with tarfile.open(tar_path, "w") as fp:
+        fp.add("images/", filter=reset_tarinfo)
+
+    is_upload = input("Do you want to continue the process to upload? (Y/n) ")
+    if is_upload.lower() != 'y':
+        return
 
     print("(i) get auth token")
     res = requests.get(
@@ -25,6 +46,7 @@ def main():
     res_data = res.json()
     api_url = res_data.get("apiUrl", "")
     auth_token = res_data.get("authorizationToken", "")
+    res.close()
 
     print("(i) getting upload url")
     res = requests.post(
@@ -35,6 +57,7 @@ def main():
     res_data = res.json()
     upload_url = res_data.get("uploadUrl")
     upload_token = res_data.get("authorizationToken")
+    res.close()
 
     print("(i) uploading backup file")
     start_time = time()
@@ -56,6 +79,7 @@ def main():
             stream=True,
         )
         print(json.dumps(res.json(), indent=4))
+        res.close()
 
     end_time = time()
     print(f"(i) done, took {end_time - start_time}s")
