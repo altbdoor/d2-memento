@@ -36,7 +36,7 @@ def main():
         fp.add("images/", filter=reset_tarinfo)
 
     is_upload = input("Do you want to continue the process to upload? (Y/n) ")
-    if is_upload.lower() != 'y':
+    if is_upload.lower() != "y":
         return
 
     print("(i) get auth token")

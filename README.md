@@ -1,5 +1,14 @@
 # d2-memento
 
+> :warning: **/u/TheLastJoaquin** is taking an indefinite break for personal matters.
+> During this time, this project will be placed on read-only mode, and no future updates are planned.
+>
+> Additionally, please respect their privacy, and refrain from making inquiries about personal matters.
+>
+> It has been a pleasure so far! See you Starside.
+>
+> &mdash; 13 Apr 2023
+
 Curated by [/u/TheLastJoaquin](https://www.reddit.com/user/TheLastJoaquin), check out the [source spreadsheet](https://docs.google.com/spreadsheets/d/1Msr7Vdqfa6MlMXYSlERAnbTwEr4Fd7rVe2uvxaPjo14)!
 
 Much thanks to all data contributors!
